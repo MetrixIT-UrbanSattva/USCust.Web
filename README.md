@@ -17,7 +17,7 @@ Urban Sattva - This is a End Customers React Web Application
 }
 
 1. Clone this repo using `git clone https://github.com/MetrixIT-UrbanSattva/USCust.Web.git`
-2. Move to the appropriate directory: `cd km2hweb`.<br />
+2. Move to the appropriate directory: `cd USCust.Web`.<br />
 3. Run `yarn` or `npm install` to install dependencies.<br />
 4. Run `npm run start` to see the example app at `http://localhost:4026`.
 
