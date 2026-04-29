@@ -1,0 +1,14 @@
+{
+  "nasikmal": "22P@62M$(!E#CE&T39#07OG?268",
+  "nasikmaldb": "switd_us",
+  "apiKey": "1212936c9915bf1758ae009b7a101315:911309d5ea459bf9037a98985b2747b00eaffd69e73e6329c5c0dcecd14008db3c690c52d42ffb90e6e1750f13c3f4b4b9cbc182654b4e709059d69728d4cea64935886c4d1508684bc2838686c77f57",
+
+  "ipAddressApi": "https://ipapi.co/json",
+  
+  "socialMediaUrl": "http://dev.urbansattva.com:4001/usdev/",
+  "whatsappUrl": "https://wa.me/?text=",
+  "facebookUrl": "https://www.facebook.com/sharer/sharer.php?u=",
+  "gmailUrl": "mailto:?subject=Check out this link&body=",
+  "twitterUrl": "https://twitter.com/intent/tweet?text=",
+  "instagramUrl": "https://www.instagram.com/upload/image/?image_url="
+}

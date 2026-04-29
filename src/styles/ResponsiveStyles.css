@@ -1,0 +1,98 @@
+@media screen and (max-width: 600px) {
+  .big-banner-section .carousel .carousel-inner .carousel-item {
+    height: 200px;
+  }
+  .carousel-control-next, .carousel-control-prev {
+    /* width: 40px !important;
+    height: 40px;
+    background-color: #3bb77e !important;
+    border-radius: 50%;
+    position: absolute;
+    top: 8% !important;
+    opacity: 1; */
+  }
+  .big-ban-container-margin {
+    margin-top: 1rem !important;
+    margin-bottom: 1rem !important;
+  }
+  .big-banner-section .carousel .carousel-inner {
+    height: 200px;
+  }
+  .title {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    color: #253d4e;
+  }
+
+  .small-ban-card .card-body img {
+    width: 90px;
+  }
+  .small-ban-card .card-body {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .carousel-control-prev-icon, .carousel-control-next-icon {
+    width: 1rem !important;
+    height: 1rem !important;
+  }
+  .big-banner-section .carousel-control-prev, .big-banner-section .carousel-control-next {
+    opacity: 1 !important;
+    width: 30px !important;
+    height: 30px;
+  }
+  .carousel-control-prev, .carousel-control-next {
+    width: 30px !important;
+    height: 30px;
+  }
+  .section-margin-mobile {
+    margin-top: 3rem !important;
+    margin-bottom: 3rem !important;
+  }
+  .section-top-margin-mobile {
+    margin-top: 3rem !important;
+  }
+  .section-bottom-margin-mobile {
+    margin-top: 3rem !important;
+  }
+  .popular-products .nav.nav-tabs {
+    position: absolute;
+    z-index: 0;
+    left: 0px;
+    top: 5px;
+    border-bottom: 0px;
+  }
+  .product-content-wrap a {
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 11px;
+    color: #253d4e;
+    line-height: 0.7 !important;
+    text-decoration: none;
+  }
+  body {
+    font-family: 'Quicksand' !important;
+    color: #253d4e;
+    font-size: 14px !important;
+    font-weight: 400;
+    /* line-height: 28px; */
+  }
+  .popular-products .product-image {
+    height: 140px;
+    padding: 10px;
+  }
+  .popular-products .nav-tabs .nav-link {
+    padding-right: 5px;
+  }
+  .pro_title {
+    font-size: 0.8rem;
+  }
+  .icon-img {
+    width: 45px;
+  }
+  .pre-footer-banner {
+    height: auto;
+  }
+}
+
+

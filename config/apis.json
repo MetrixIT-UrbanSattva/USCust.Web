@@ -1,0 +1,77 @@
+{
+  "postUserOtpAPI": "http://localhost:3101/kmvcdm/login/send/otp",
+  "postVerifyUserOtpAPI": "http://localhost:3101/kmvcdm/login/verify/otp",
+
+  "postCustomerAdrsList":"http://localhost:3102/kmvcd/addresses/list",
+  "postCustAdrsCreateAPI":"http://localhost:3102/kmvcd/address/create",
+  "postCustAdrsViewAPI":"http://localhost:3102/kmvcd/address/view/",
+
+  "postMonthBasketListAPI": "http://localhost:3110/kmvc/month/basket/items",
+  "postMonthBasketCreateAPI": "http://localhost:3117/kmvc/custs/basket/create",
+  "postMBasketListAPI": "http://localhost:3117/kmvc/custs/basket/list",
+  "postMbasItemsListAPI": "http://localhost:3117/kmvc/custs/basket/item/list",
+  "postMbasItemsListDeletAPI": "http://localhost:3117/kmvc/custs/basket/remove",
+  "postItemsListDeletAPI": "http://localhost:3117/kmvc/custs/basket/item/delete",
+  "postItemsQtyUpdateAPI": "http://localhost:3117/kmvc/custs/basket/item/qty/update",
+  "postItemCreateAPI": "http://localhost:3117/kmvc/custs/basket/item/create",
+
+  "putProfilePicUpdateAPI": "http://localhost:3101/kmvcdm/profile/pic/update/",
+  "putProfilePicDeleteAPI": "http://localhost:3101/kmvcdm/profile/pic/delete/",
+  "putProfileDetailsUpdateAPI": "http://localhost:3101/kmvcdm/user/details/update",
+
+  "postCustSupCreateAPI": "http://localhost:3114/kmvc/customer/support/create",
+  "postCustSupTickListAPI": "http://localhost:3114/kmvc/customer/support/list",
+
+  "postCustItemViewedAPI": "http://localhost:3109/kmvc/cust/item/view",
+  "postCustItemViewedListAPI": "http://localhost:3109/kmvc/cust/item/list",
+  "postCustItemListAPI": "http://localhost:3109/kmvc/cust/item/viewed/List",
+
+  "postCustItemsListAPI":"http://localhost:3103/kmvc/custs/items/list",
+  "postCustItemViewAPI": "http://localhost:3103/kmvc/custs/item/view",
+
+  "postCustItemDetailsViewAPI":"http://localhost:3104/kmvc/item/dtls/view",
+  "postCustItemFilesListAPI":"http://localhost:3104/kmvc/item/fls/view",
+
+  "postCustItemQasListAPI": "http://localhost:3106/kmvc/custs/item/qas/list",
+  
+  "postCustItemRvrsListAPI": "http://localhost:3105/kmvc/custs/item/rvrtngs/list",
+
+  "postCustCartItemsListAPI": "http://localhost:3111/kmvc/custs/cart/items/list",
+  "postCustItemAddToCartAPI": "http://localhost:3111/kmvc/custs/cart/item/create",
+  "postCustAddToCartItemUpdateAPI": "http://localhost:3111/kmvc/custs/cart/item/qty/update",
+  "postCustItemRemoveFromCartAPI": "http://localhost:3111/kmvc/custs/cart/item/delete",
+
+  "postCreateCustsGuestsAPI": "http://localhost:3101/kmvcdm/create/custs/guests",
+  "postGuestOtpAPI": "http://localhost:3101/kmvcdm/custs/guest/login/send/otp",
+  "postGuestOtpVerifyAPI": "http://localhost:3101/kmvcdm/custs/guest/login/verify/otp",
+
+  "postSalesOrderGrpsListAPI": "http://localhost:3112/kmvc/custs/so/grps/list",
+
+  "putCustAdrsEditAPI":"http://localhost:3102/kmvcd/address/update",
+  "putCustAdrsDeleteAPI":"http://localhost:3102/kmvcd/address/delete/",
+  "putCustAdrsSetDefaultAPI":"http://localhost:3102/kmvcd/address/setdefault/",
+
+  "postCustomerMyOrdersAPI":"http://localhost:3112/kmvcd/user/myorders",
+  "postCustomerMyOrdersViewAPI":"http://localhost:3112/kmvcd/user/myorders/order/view",
+  "postCustomerMyOrdersItemsViewAPI":"http://localhost:3112/kmvcd/user/myorders/order/items/view",
+  "postCustomerMyOrdersCancelAPI":"http://localhost:3112/kmvcd/user/myorders/order/cancel",
+  "postCustomerMyOrdersItemViewAPI":"http://localhost:3112/kmvcd/user/myorders/order/item/view",
+  "postMyOrdersCreateAPI":"http://localhost:3112/kmvcd/user/myorders/order/create",
+
+  "postCustomerMyOrdersItemReviewRatingAPI":"http://localhost:3105/kmvc/custs/myorders/item/rating",
+  "postCustomerItemReviewRatingViewAPI":"http://localhost:3105/kmvc/custs/myorders/item/rating/view",
+  "postCustomerItemReviewRatingEditAPI":"http://localhost:3105/kmvc/custs/myorders/item/rating/update",
+
+  "postCustomerLikeCountAPI":"http://localhost:3107/kmvc/custs/item/rvrtngs/likes/create",
+
+  "postcustNtfcListApi": "http://localhost:3113/kmvc/cust/users/notifications/list",
+  "postCustNtfcUpdateAPI": "http://localhost:3113/kmvc/cust/users/notifications/update",
+  "postCustNtfcCountAPI": "http://localhost:3113/kmvc/cust/users/notifications/List/unread/count",
+
+  "postAddItemToWishlist": "http://localhost:3115/kmvc/cust/wishlist/item/create",
+  "postRemoveItemFromWishlist": "http://localhost:3115/kmvc/cust/wishlist/item/remove",
+  "postGetWishlistItems": "http://localhost:3115/kmvc/cust/wishlist/items",
+  "postGetWishlistItemsWithPgn": "http://localhost:3115/kmvc/cust/wishlist/items/list",
+
+  "postCustomerRRReportsAPI":"http://localhost:3116/kmvc/custs/rr/reports/create"
+}

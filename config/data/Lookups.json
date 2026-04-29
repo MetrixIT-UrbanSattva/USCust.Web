@@ -1,0 +1,12 @@
+{
+  "genders": ["Female", "Male", "Other"],
+  "visaCategories": [
+    {"label": "OPT", "value": "Optional Practical Training", "code": "OPT", "sort": 1},
+    {"label": "CPT", "value": "Curricular Practical Training", "code": "CPT", "sort": 2},
+    {"label": "H1B", "value": "H1B", "code": "H1B", "sort": 3},
+    {"label": "H4 EAD", "value": "H4 Employment Authorization Document", "code": "H4EAD", "sort": 4},
+    {"label": "GC", "value": "Green Card", "code": "GC", "sort": 5},
+    {"label": "GC EAD", "value": "Green Card Employment Authorization Document", "code": "GCEAD", "sort": 6},
+    {"label": "US Citizen", "value": "US Citizen", "code": "USC", "sort": 7}
+  ]
+}

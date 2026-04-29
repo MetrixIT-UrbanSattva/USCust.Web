@@ -1,0 +1,65 @@
+.filter-section {
+  padding: 50px 35px 30px;
+  width: 400px;
+  height: 100vh;
+  background: #fff;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  overflow: auto;
+  z-index: 9999999;
+  border-left: 1px solid #ececec;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, .05);
+}
+.filter-close-btn {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+}
+.filter-wrapper>h2 {
+  position: relative;
+  border-bottom: 1px solid #ececec;
+  padding-bottom: 20px;
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+.filter-wrapper>h2:after {
+  content: "";
+  width: 80px;
+  height: 2px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #bce3c9;
+}
+.price_filter_section .form-check {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.each_filter_section {
+  margin-bottom: 40px;
+}
+.each_filter_section .form-check {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.form-check label {
+  color: #7a7a7a;
+  line-height: 1.5px;
+  font-weight: 500;
+}
+.filtered-label-div {
+  border: 1px solid #c3c3c3;
+  border-radius: 6px;
+  padding: 5px 5px;
+  margin: 5px 6px;
+}
+.filtered-label-div .fa.fa-close {
+  margin-right: 10px;
+  padding: 2px;
+  color: red;
+}
+.filtered-label-div label {
+  color: #777;
+  font-size: 14px;
+}
